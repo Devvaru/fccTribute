@@ -1,0 +1,35 @@
+#title {
+	font-size: 21px !important;
+	font-family: montserrat, sans-serif;
+	text-align: center;
+}
+#main {
+	font-family: montserrat, sans-serif;
+}
+
+#image {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-caption {
+	text-align: center;
+	text-transform: italicize;
+}
+footer {
+	object-fit: fill;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+	height: 300px;
+	width: fill;
+	margin: 0px;
+}
+.footer-img {
+    flex: 2 0;
+    min-width: 100%;
+    min-height: 100%; 
+}
