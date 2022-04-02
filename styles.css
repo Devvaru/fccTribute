@@ -1,3 +1,17 @@
+
+#main {
+	font-family: 'montserrat', sans-serif;
+    background-color: #EEF1E6;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header"
+      "body body"
+      "footer footer";
+}
+
 #title {
 	font-size: 30px;
 	font-family: 'montserrat', sans-serif;
@@ -5,11 +19,8 @@
     color: #15081A;
     background-color: #BAC6BC;
     padding: 50px;
-}
-#main {
-	font-family: 'montserrat', sans-serif;
-    background-color: #EEF1E6;
     margin: 0px;
+    grid-area: header;
 }
 
 #image {
@@ -18,21 +29,46 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    grid-area: body;
+}
+
+#section1 {
+    grid-area: body;
+}
+
+#section2 {
+    grid-area: body;
 }
 
 #img-caption {
 	text-align: center;
 	text-transform: italicize;
+
 }
+
+#intro-text {
+    
+}
+
+#image2{
+    
+}
+
+#img-caption2 {
+    
+}
+
+#info-text {
+    
+}
+
 footer {
-	/*object-fit: fill;
-    justify-content: center;
-    align-items: center;*/
     overflow: hidden;
 	height: 300px;
     width: 100%;
     position: absolute;
     bottom: 0;
+    grid-area: footer;
 }
 .footer-img {
     flex: 2 0;
