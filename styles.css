@@ -2,6 +2,7 @@
 #main {
 	font-family: 'montserrat', sans-serif;
     font-size: 16px;
+    color: #15081A;
     background-color: #EEF1E6;
     margin: 0px;
     display: flex;
@@ -107,15 +108,14 @@ a:hover {
 a:active { text-decoration: none; }
 
 footer {
-   /* overflow: hidden;
-	height: 300px;
+   overflow: hidden;
+	height: 280px;
     width: 100%;
-    position: absolute;
-    bottom: 0; */
+    position: bottom;
     
 }
 .footer-img {
-    flex: 2 0;
+    flex: 2 0 0;
     min-width: 100%;
     min-height: 100%; 
 }
