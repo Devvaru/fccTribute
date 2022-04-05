@@ -1,10 +1,12 @@
 
 #main {
 	font-family: 'montserrat', sans-serif;
+    font-size: 16px;
     background-color: #EEF1E6;
     margin: 0px;
     display: flex;
     flex-direction: column;
+    column-gap: 50px;
 }
 
 #title {
@@ -47,6 +49,7 @@ font-style: italic;
 
 #intro-text {
     text-align: justify;
+    margin: 0px;
 }
 
 #section2 {
@@ -55,7 +58,7 @@ font-style: italic;
     column-gap: 50px;
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 50px;
+    margin: 0px 50px 50px 50px;
 }
 
 #section2.5 {
@@ -63,7 +66,8 @@ font-style: italic;
     flex-direction: column;
 }
 #image2{
-    
+    width: 500px;
+    height: auto;
 }
 
 #img-caption2 {
@@ -72,7 +76,35 @@ font-style: italic;
 
 #info-text {
     text-align: justify;
+    margin: 0px;
 }
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    color: #fff;
+    background-color: #4C1D48;
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 15px 40px 15px 40px;
+    border: 0px;
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { 
+    text-decoration: none; 
+    background-color: #A26074;
+}
+
+a:active { text-decoration: none; }
 
 footer {
    /* overflow: hidden;
