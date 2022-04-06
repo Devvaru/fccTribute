@@ -14,13 +14,18 @@
 	font-size: 30px;
 	font-family: 'montserrat', sans-serif;
 	text-align: center;
-    color: #15081A;
-    background-color: #BAC6BC;
+    color: #4C1D48;
+    background-color: #CAD7CF;
     padding: 50px;
     margin: 0px;
     
 }
 
+@media (max-width: 768px) {
+    #title {
+        padding: 25px;
+    }
+}
 
 #section1 {
     display: flex;
@@ -39,33 +44,44 @@
     }
 }
 
+@media (max-width: 768px) {
+    #section1 {
+        flex-flow: row wrap;
+        max-width: 100%; 
+        padding: 25px;
+        margin: 25px;
+    }
+}
+
 @media (max-width: 1201px) {
     #image {
         max-width: 100%;  
     }
 }
-#section1.5 {
+#img-div {
     display: flex;
     flex-direction: column;
 }
 #image {
     width: 500px;
     height: auto;
+    /* max-width: 500px; */
 }
 
 #img-caption {
 font-style: italic;
 }
 
-#intro-text {
+#tribute-intro {
     text-align: justify;
     margin: 0px;
 }
 
+/* Second half starts here*/
+
 #section2 {
     display: flex;
     flex-direction: row;
-    flex-flow: row wrap;
     column-gap: 50px;
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -80,16 +96,26 @@ font-style: italic;
     }
 }
 
+@media (max-width: 768px) {
+    #section2 {
+        flex-flow: row wrap;
+        max-width: 100%; 
+        padding: 25px;
+        margin: 0px 25px 25px 25px;
+    }
+}
+
 @media (max-width: 1201px) {
     #image2 {
         max-width: 100%;  
     }
 }
 
-#section2.5 {
+#section2a {
     display: flex;
     flex-direction: column;
 }
+
 #image2{
     width: 500px;
     height: auto;
@@ -99,14 +125,16 @@ font-style: italic;
     font-style: italic;
 }
 
-#info-text {
+#tribute-info {
     text-align: justify;
     margin: 0px;
 }
+
 .button {
     display: flex;
     justify-content: space-around;
 }
+
 a {
     color: #fff;
     background-color: #4C1D48;
@@ -118,6 +146,12 @@ a {
     margin: 0px 0px 50px 0px;
     text-align: center;
     transition-duration: 0.4s;
+}
+
+@media (max-width: 768px) {
+    a {
+     margin: 0px 0px 25px 0px;
+    }
 }
 
 a:link { text-decoration: none; }
@@ -138,6 +172,7 @@ footer {
     position: bottom;
     
 }
+
 .footer-img {
     flex: 2 0 0;
     min-width: 100%;
